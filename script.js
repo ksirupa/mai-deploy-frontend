@@ -26,7 +26,7 @@ function sendMessage() {
         addMessage('user', message);
         input.value = '';
         
-        fetch('https://demo.ragflow.io/chat?dialogId=feae153093ba11ef8ae842010a8a0006', {
+        fetch('https://mai-deploy-orcin.vercel.app/life_chat', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
