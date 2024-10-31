@@ -26,7 +26,7 @@ function sendMessage() {
         addMessage('user', message);
         input.value = '';
         
-        fetch('https://modernaipro-eight.vercel.app/life_chat', {
+        fetch('https://mai-deploy-orcin.vercel.app/life_chat', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
